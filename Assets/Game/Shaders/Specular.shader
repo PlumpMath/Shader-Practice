@@ -5,8 +5,8 @@
 		_Shininess ("Shininess", Float) = 10
 	}
 	SubShader {
-		Tags { "LightMode" = "ForwardBase" }
 		Pass {
+			Tags { "LightMode" = "ForwardBase" }
 			CGPROGRAM
 
 			#pragma vertex vert

@@ -3,8 +3,8 @@
 		_Color ("Color", Color) = (1.0, 1.0, 1.0, 1.0)
 	}
 	SubShader {
-		Tags { "LightMode" = "ForwardBase" }
 		Pass {
+			Tags { "LightMode" = "ForwardBase" }
 			CGPROGRAM
 
 			#pragma vertex vert
